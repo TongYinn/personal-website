@@ -1,8 +1,8 @@
 @import "../index.css";
 
-.footerContainer {
+.navBarContainer {
     font-family: 'Karla';
-    text-align: center;
+    text-align: right;
     margin-top: 7%;
     margin-bottom: 1%;
     display: inline;
@@ -10,26 +10,21 @@
     color: black !important;
 }
 
+.navBarContainer Link {
+    display: inline-block;
+}
+
 .link {
     font-weight: bold;
     text-decoration: none;
     color: black;
     margin: 0 10px;
-}
+    display: inline-block;
 
-.link:active,
-.link:visited {
-    color: #efb85c;
 }
 
 a:hover {
     text-decoration: none;
     color: #dd4242 !important;
     outline: none;
-}
-
-.credit {
-    color: black;
-    margin-left: 32px;
-    margin-right: 32px;
 }

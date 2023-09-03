@@ -1,6 +1,6 @@
 import React from 'react'
 import "../index.css";
-import "../components/Footer.scss";
+import "../components/Footer.css";
 import Box from '@material-ui/core/Box';
 import resume from '../assets/Tong Yin Han - PM Resume S24.pdf'
 
@@ -12,7 +12,7 @@ const Footer = () => {
                 <a target="_blank" className="link" href="mailto:tyhan@uwaterloo.ca" rel="noopener noreferrer">Email</a>
                 <a target="_blank" className="link" href={resume} rel="noopener noreferrer">Resume</a>
             </Box>
-            <Box className="credit"> designed and developed by Tong Yin Han</Box>
+            <Box> designed and developed by Tong Yin Han</Box>
         </Box>
     );
   };
