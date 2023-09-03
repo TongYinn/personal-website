@@ -1,0 +1,35 @@
+@import "../index.css";
+
+.footerContainer {
+    font-family: 'Karla';
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 1%;
+    display: inline;
+    flex-direction: row;
+    color: black !important;
+}
+
+.link {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+.link:active,
+.link:visited {
+    color: #efb85c;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #dd4242 !important;
+    outline: none;
+}
+
+.credit {
+    color: black;
+    margin-left: 32px;
+    margin-right: 32px;
+}
