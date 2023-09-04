@@ -12,3 +12,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.text {
+  padding-left: 10%;
+  padding-top: 7%;
+}
+
+.title {
+  font-size: 40px;
+  padding-top: 5%;
+}
+
+.work {
+  font-size: 25px;
+}
+
+.searching {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.interests {
+  font-size: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.photo {
+  width: 30%;
+  border-radius: 10px;
+  margin-right: 50%;
+  padding-left: 63%;
+  margin-top: -350px;
+}

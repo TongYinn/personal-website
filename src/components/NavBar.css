@@ -3,10 +3,8 @@
 .navBarContainer {
     font-family: 'Karla';
     text-align: right;
-    margin-top: 7%;
-    margin-bottom: 1%;
+    padding-top: 10%;
     display: inline;
-    flex-direction: row;
     color: black !important;
 }
 
@@ -18,9 +16,7 @@
     font-weight: bold;
     text-decoration: none;
     color: black;
-    margin: 0 10px;
     display: inline-block;
-
 }
 
 a:hover {

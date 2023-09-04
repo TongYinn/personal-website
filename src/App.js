@@ -5,19 +5,24 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Home from "./pages/Home";
 import About from "./pages/About";
+import { Navigate } from "react-router-dom";
+
 
 function App() {
   return (
+
     <React.Fragment>
       <Router>
-        <NavBar />
+        <Home />
+        <About />
         <Routes>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
+          <Route path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/" element={<Navigate replace to="/home" />} />
         </Routes>
         <Footer />
       </Router>
-    </React.Fragment>
+   </React.Fragment>
   );
 }
 
