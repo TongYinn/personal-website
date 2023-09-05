@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { Router, Routes, Route} from "react-router-dom";
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Home from "./pages/Home";
@@ -12,7 +12,6 @@ function App() {
   return (
 
     <React.Fragment>
-      <Router>
         <Home />
         <About />
         <Routes>
@@ -21,7 +20,6 @@ function App() {
           <Route path="/" element={<Navigate replace to="/home" />} />
         </Routes>
         <Footer />
-      </Router>
    </React.Fragment>
   );
 }
