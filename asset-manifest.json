@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.6ac50459.css",
-    "main.js": "/personal-website/static/js/main.c1f460cf.js",
+    "main.js": "/personal-website/static/js/main.4ba83934.js",
     "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
     "static/media/about-photo.jpeg": "/personal-website/static/media/about-photo.e88f6bccda634f905c76.jpeg",
     "static/media/Tong Yin Han - PM Resume S24.pdf": "/personal-website/static/media/Tong Yin Han - PM Resume S24.2f19b1d87bc6d8764d03.pdf",
     "index.html": "/personal-website/index.html",
     "main.6ac50459.css.map": "/personal-website/static/css/main.6ac50459.css.map",
-    "main.c1f460cf.js.map": "/personal-website/static/js/main.c1f460cf.js.map",
+    "main.4ba83934.js.map": "/personal-website/static/js/main.4ba83934.js.map",
     "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ac50459.css",
-    "static/js/main.c1f460cf.js"
+    "static/js/main.4ba83934.js"
   ]
 }
